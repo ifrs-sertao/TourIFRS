@@ -45,7 +45,7 @@
         var estruturas = [{
 		    "type": "Feature",
 		    "properties": {"nome": "Administrativo/Biblioteca",
-							"url": "https://gabrielpatzer.github.io/TourIFRS/"},
+							"url": "#"},
 		    "geometry": {
 		        "type": "Polygon",
 		        "coordinates": [[

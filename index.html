@@ -94,6 +94,29 @@ a:hover {
     color: green; 
 }
 
+iframe {
+    width:100%;
+    height:100%;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+
+tw-passage[tags~="Mapa"] { 
+ 	font-family: arial;
+    letter-spacing: 0.3px;
+  	text-align:left;
+ 	background-color: lightgray;
+    border: 5px groove gray; 
+    border-radius: 25px; 
+    background: rgba(255,255,255,0.7); 
+    padding-bottom: 100px;
+    height:500px;
+  
+}/*caracteristicas das pg especifica*/
+
+
 </style><script role="script" id="twine-user-script" type="text/twine-javascript"></script>
 <tw-passagedata pid="1" name="Inicio" tags="" position="461,0" size="100,100">
     <p><b>Olá, Bem vindo ao TourIFRS!</b>
@@ -103,10 +126,17 @@ a:hover {
 [[Conhecer mais sobre o projeto -&gt;Projeto]]
 [[Conhecer os cursos-&gt;Curso]]
 [[Nevegação através dos setores-&gt; Menu]]
-<a href="https://gabrielpatzer.github.io/TourIFRS/Leaflet/">Nevegação através do mapa</a>
-
+[[Nevegação através do mapa-&gt;Mapa]]
     
 </tw-passagedata>
+    
+<tw-passagedata pid="2" name="Mapa" tags="Mapa" >	
+    <iframe src="https://gabrielpatzer.github.io/TourIFRS/Leaflet/" ></iframe>
+    
+[[Voltar -&gt;Inicio]] 
+</tw-passagedata>
+    
+    
     
 <tw-passagedata pid="2" name="Projeto" tags="" position="319,117.5" size="100,100">	
     <p><b>Sobre o projeto:</b></p>
@@ -889,7 +919,7 @@ d) Habilidades de comunicação oral, escrita e de uso dos recursos tecnológico
 
 [[Voltar ao Menu -&gt; CieBio]]</tw-passagedata>
 
-<tw-passagedata pid="27" name="Administração/Biblioteca" tags="" position="238,412.5" size="100,100" id="bib">
+<tw-passagedata pid="27" name="Administração/Biblioteca" tags="bib" position="238,412.5" size="100,100" id="bib">
     <p><b>Administração e biblioteca:</b></p>
     <p>Esse bloco é dividido em dois "setores", está localizado ao lado do pórtico de entrada do campus. Sendo a parte de administração atuando no planejamento das políticas institucionais, com vistas a garantir a execução dos planos estratégicos e operacionais, supervisionar a aquisição e distribuição de material, controle patrimonial, planejamento físico e financeiro, assim como sobre a administração das operações de conservação e manutenção dos bens do IFRS - Campus Sertão.</p>
 	<p>Também temos a biblioteca do campus integrada a esse prédio. Nela se encontra todos materias de apoio a ensino, pesquisa e extensão de todas áreas abrangentes dentro do IFRS.</p>
