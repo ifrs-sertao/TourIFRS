@@ -98,7 +98,7 @@
 		{
 		    "type": "Feature",
 		    "properties": {"nome": "Prédio Central/Secretaria",
-							"url": "#"},
+							"url": "https://gabrielpatzer.github.io/TourIFRS"},
 		    "geometry": {
 		        "type": "Polygon",
 		        "coordinates": [[

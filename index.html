@@ -117,28 +117,7 @@ tw-passage[tags~="Mapa"] {
 }/*caracteristicas das pg especifica*/
 
 
-</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script>
-    
-<script>
-/* method for extracting a named variable from the URL query used. */
-function getQueryVariable(variable) {
-	var query = window.location.search.substring(1);
-	var vars = query.split("&amp;");
-	for (var i=0;i<vars.length;i++) {
-		var pair = vars[i].split("=");
-		if(pair[0] == variable){
-			return pair[1];
-		}
-	}
-	return(false);
-}
-
-/* if URL query contained a goto=x then show that passage on startup. */
-var goto = getQueryVariable("goto");
-if (goto) {
-	Story.startPassage = goto;
-}</script>
-    
+</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script>    
     
 <tw-passagedata pid="1" name="Inicio" tags="" position="461,0" size="100,100">
     <p><b>Olá, Bem vindo ao TourIFRS!</b>
@@ -568,7 +547,7 @@ d) Habilidades de comunicação oral, escrita e de uso dos recursos tecnológico
 
 [[Voltar aos cursos -&gt;Curso]]</tw-passagedata>
 
-<tw-passagedata pid="2" name="Prédio central/Secretária" tags="" position="14,525.5" size="100,100" goto="2">
+<tw-passagedata pid="2" name="Prédio central/Secretária" tags="" position="14,525.5" size="100,100" >
 
     <p><b>Prédio central e Secretária:</b></p>
     <p>Esse bloco se localiza no centro do campus, nele temos Auditórios, Secretarias, Assisetência Estudantil...</p>
