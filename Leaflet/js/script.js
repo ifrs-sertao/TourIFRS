@@ -45,7 +45,7 @@
         var estruturas = [{
 		    "type": "Feature",
 		    "properties": {"nome": "Administrativo/Biblioteca",
-							"url": "#"},
+							"url": "Administração/Biblioteca"},
 		    "geometry": {
 		        "type": "Polygon",
 		        "coordinates": [[
@@ -98,7 +98,7 @@
 		{
 		    "type": "Feature",
 		    "properties": {"nome": "Prédio Central/Secretaria",
-							"url": "https://gabrielpatzer.github.io/TourIFRS"},
+							"url": "Prédio central/Secretária"},
 		    "geometry": {
 		        "type": "Polygon",
 		        "coordinates": [[
@@ -113,7 +113,7 @@
 		{
 		    "type": "Feature",
 		    "properties": {"nome": "Salas (Bloco A/ Bloco B)",
-							"url": "#"},
+							"url": "Bloco de Salas(A/B)"},
 		    "geometry": {
 		        "type": "Polygon",
 		        "coordinates": [[
@@ -302,7 +302,7 @@
 		{
 		    "type": "Feature",
 		    "properties": {"nome": "Olericultura",
-							"url": "#"},
+							"url": "Olericultura"},
 		    "geometry": {
 		        "type": "Polygon",
 		        "coordinates": [[
@@ -689,7 +689,7 @@
 		        mouseout: resetHighlight
 		    });
 		    if (feature.properties && feature.properties.nome) {
-		        layer.bindPopup("<a href=\""+feature.properties.url+"\">"+feature.properties.nome+"</a>");
+		        layer.bindPopup("<a href=\"file:///home/gabriel/sketchbook/TourIFRS/index.html?goto="+feature.properties.url+"\">"+feature.properties.nome+"</a>");
     }
 		}
 
