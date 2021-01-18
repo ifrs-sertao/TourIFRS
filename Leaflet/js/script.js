@@ -45,7 +45,7 @@
         var estruturas = [{
 		    "type": "Feature",
 		    "properties": {"nome": "Administrativo/Biblioteca",
-							"url": "Administração/Biblioteca"},
+							"url": "administracao/biblioteca"},
 		    "geometry": {
 		        "type": "Polygon",
 		        "coordinates": [[
@@ -689,7 +689,7 @@
 		        mouseout: resetHighlight
 		    });
 		    if (feature.properties && feature.properties.nome) {
-		        layer.bindPopup("<a href=\"file:///home/gabriel/sketchbook/TourIFRS/index.html?goto="+feature.properties.url+"\">"+feature.properties.nome+"</a>");
+		        layer.bindPopup("<a href=\"http://gabrielpatzer.github.io/TourIFRS?goto="+feature.properties.url+"\">"+feature.properties.nome+"</a>");
     }
 		}
 
