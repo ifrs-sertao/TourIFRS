@@ -131,14 +131,13 @@ tw-passage[tags~="Mapa"] {
 		return(false);
 	}
 
-	/* if URL query contained a goto=x then show that passage on startup. */
+	/* if URL query contained a goto=x then show that passage on startup. 
 	var goto = getQueryVariable("goto");
 	if (goto) {
 		alert("Starting at = "+goto)
 		// Story.startPassage = goto;
-		Engine.goToPassage(goto);
-			
-	}
+		Engine.goToPassage(goto);	
+	}*/
 </script>    
     
 <tw-passagedata pid="1" name="inicio" tags="" position="461,0" size="100,100">
@@ -571,7 +570,7 @@ d) Habilidades de comunicação oral, escrita e de uso dos recursos tecnológico
 
 [[Voltar aos cursos -&gt;curso]]</tw-passagedata>
 
-<tw-passagedata pid="2" name="prediocentral/secretaria" tags="" position="14,525.5" size="100,100" >
+<tw-passagedata pid="2" name="prediocentral-secretaria" tags="" position="14,525.5" size="100,100" >
 
     <p><b>Prédio central e Secretária:</b></p>
     <p>Esse bloco se localiza no centro do campus, nele temos Auditórios, Secretarias, Assisetência Estudantil...</p>
@@ -947,7 +946,7 @@ d) Habilidades de comunicação oral, escrita e de uso dos recursos tecnológico
 
 [[Voltar ao Menu -&gt;menu]]</tw-passagedata>
 
-<tw-passagedata pid="27" name="administracao/biblioteca" tags="bib" position="238,412.5" size="100,100" id="bib">
+<tw-passagedata pid="27" name="administracao-biblioteca" tags="bib" position="238,412.5" size="100,100" id="bib">
     <p><b>Administração e biblioteca:</b></p>
     <p>Esse bloco é dividido em dois "setores", está localizado ao lado do pórtico de entrada do campus. Sendo a parte de administração atuando no planejamento das políticas institucionais, com vistas a garantir a execução dos planos estratégicos e operacionais, supervisionar a aquisição e distribuição de material, controle patrimonial, planejamento físico e financeiro, assim como sobre a administração das operações de conservação e manutenção dos bens do IFRS - Campus Sertão.</p>
 	<p>Também temos a biblioteca do campus integrada a esse prédio. Nela se encontra todos materias de apoio a ensino, pesquisa e extensão de todas áreas abrangentes dentro do IFRS.</p>
