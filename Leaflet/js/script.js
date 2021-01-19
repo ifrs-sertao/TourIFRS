@@ -75,7 +75,7 @@
 		{
 		    "type": "Feature",
 		    "properties": {"nome": "Prédio Central/Secretaria",
-							"url": "prediocentral-secretaria"},
+							"url": "prediocentral/secretaria"},
 		    "geometry": {
 		        "type": "Polygon",
 		        "coordinates": [[
