@@ -45,7 +45,7 @@
         var estruturas = [{
 		    "type": "Feature",
 		    "properties": {"nome": "Administrativo/Biblioteca",
-							"url": "administracao-biblioteca"},
+							"url": "administracaobiblioteca"},
 		    "geometry": {
 		        "type": "Polygon",
 		        "coordinates": [[
@@ -75,11 +75,7 @@
 		{
 		    "type": "Feature",
 		    "properties": {"nome": "Prédio Central/Secretaria",
-<<<<<<< HEAD
 							"url": "prediocentralsecretaria"},
-=======
-							"url": "prediocentral/secretaria"},
->>>>>>> 828887b85094e6447eb2f2910c22eb586940bba3
 		    "geometry": {
 		        "type": "Polygon",
 		        "coordinates": [[
