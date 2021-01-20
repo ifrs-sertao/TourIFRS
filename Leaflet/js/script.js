@@ -45,7 +45,7 @@
         var estruturas = [{
 		    "type": "Feature",
 		    "properties": {"nome": "Administrativo/Biblioteca",
-							"url": "administracao/biblioteca"},
+							"url": "administracao-biblioteca"},
 		    "geometry": {
 		        "type": "Polygon",
 		        "coordinates": [[
@@ -56,29 +56,6 @@
 		        				]]
 		    }
 		},
-		
-		/* Marcador açude 
-		{
-		    "type": "Feature",
-		    "properties": {"nome": "Açude",
-							"url": "#"},
-		    "geometry": {
-		        "type": "Polygon",
-		        "coordinates": [[
-		        				[-0.878906,-34.741612],
-		        				[0.351563,-40.979898],
-		        				[17.753906,-39.909736],
-		        				[26.894531,-43.068888],
-		        				[34.453125,-41.112469],
-		        				[36.035156,-37.857507],
-		        				[35.507813,-35.88905],
-		        				[30.058594,-33.28462],
-		        				[15.46875,-35.603719],
-		        				[4.570313,-33.870416]
-		        				]]
-		    },
-		},
-		*/
 		
 		{
 		    "type": "Feature",
@@ -98,7 +75,11 @@
 		{
 		    "type": "Feature",
 		    "properties": {"nome": "Prédio Central/Secretaria",
+<<<<<<< HEAD
 							"url": "prediocentralsecretaria"},
+=======
+							"url": "prediocentral/secretaria"},
+>>>>>>> 828887b85094e6447eb2f2910c22eb586940bba3
 		    "geometry": {
 		        "type": "Polygon",
 		        "coordinates": [[
@@ -646,7 +627,7 @@
 		{
 		    "type": "Feature",
 		    "properties": {"nome": "Alojamento masculino",
-							"url": "#"},
+							"url": ""},
 		    "geometry": {
 		        "type": "Polygon",
 		        "coordinates": [[
