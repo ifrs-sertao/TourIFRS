@@ -98,7 +98,7 @@
 		{
 		    "type": "Feature",
 		    "properties": {"nome": "Prédio Central/Secretaria",
-							"url": "Prédio central/Secretária"},
+							"url": "prediocentralsecretaria"},
 		    "geometry": {
 		        "type": "Polygon",
 		        "coordinates": [[
@@ -248,7 +248,7 @@
 		{
 		    "type": "Feature",
 		    "properties": {"nome": "Academia",
-							"url": "#"},
+							"url": "academia"},
 		    "geometry": {
 		        "type": "Polygon",
 		        "coordinates": [[
