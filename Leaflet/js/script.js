@@ -278,7 +278,7 @@
 		{
 		    "type": "Feature",
 		    "properties": {"nome": "Olericultura",
-							"url": "Olericultura"},
+							"url": "olericultura"},
 		    "geometry": {
 		        "type": "Polygon",
 		        "coordinates": [[
@@ -421,7 +421,7 @@
 		{
 		    "type": "Feature",
 		    "properties": {"nome": "Mecanização",
-							"url": "#"},
+							"url": "mecanica"},
 		    "geometry": {
 		        "type": "Polygon",
 		        "coordinates": [[
