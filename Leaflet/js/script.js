@@ -24,7 +24,7 @@
             
                 
         
-        //Marcador usado para pegar posição em Pixels
+        /*Marcador usado para pegar posição em Pixels
         var ref = L.marker([0,0], {
             draggable: true,
         }).addTo(map);
@@ -37,7 +37,8 @@
 	        lng = latlng[1]
 	        rslt = lng.split(')')[0]+","+lat.split('(')[1];
            ref.getPopup().setContent(rslt).openOn(map)
-        });
+		});
+		*/
 
 
 
@@ -64,11 +65,11 @@
 		    "geometry": {
 		        "type": "Polygon",
 		        "coordinates": [[
-		        				[41.396484,-72.633374],
-		        				[41.835938,-72.127936],
-		        				[35.947266,-72.019729],
-		        				[36.298828,-72.501722]
-		        				]]
+								[35.595703,-71.718882],
+								[42.714844,-71.82884],
+								[42.802734,-73.099413],
+								[35.507813,-72.842021]
+								]]
 		    },
 		},
 		
@@ -90,7 +91,7 @@
 		{
 		    "type": "Feature",
 		    "properties": {"nome": "Salas (Bloco A/ Bloco B)",
-							"url": "Bloco de Salas(A/B)"},
+							"url": "blocosalas"},
 		    "geometry": {
 		        "type": "Polygon",
 		        "coordinates": [[
@@ -120,7 +121,7 @@
 		{
 		    "type": "Feature",
 		    "properties": {"nome": "Restaurante",
-							"url": "#"},
+							"url": "refeitorio"},
 		    "geometry": {
 		        "type": "Polygon",
 		        "coordinates": [[
@@ -165,14 +166,14 @@
 		{
 		    "type": "Feature",
 		    "properties": {"nome": "Ambulatório",
-							"url": "#"},
+							"url": "ambulatorio"},
 		    "geometry": {
 		        "type": "Polygon",
 		        "coordinates": [[
-								[64.423828,-63.035039],
-		        				[66.181641,-62.915233],
-		        				[65.917969,-61.100789],
-		        				[64.160156,-61.143235]
+								[63.984375,-63.548552],
+		        				[68.027344,-63.391522],
+		        				[67.763672,-61.058285],
+		        				[63.457031,-61.312452]
 		        				]]
 		    },
 		},
@@ -210,7 +211,7 @@
 		{
 		    "type": "Feature",
 		    "properties": {"nome": "Coopera",
-							"url": "#"},
+							"url": "coopera"},
 		    "geometry": {
 		        "type": "Polygon",
 		        "coordinates": [[
@@ -229,20 +230,18 @@
 		    "geometry": {
 		        "type": "Polygon",
 		        "coordinates": [[
-								[26.455078,-53.540307],
-		        				[28.652344,-53.696706],
-		        				[29.179688,-54.826008],
-								[27.861328,-55.627996],
-								[25.664063,-55.229023],
-								[25.400391,-54.265224]
-		        				]]
+								[22.5,-53.225768],
+								[30.322266,-51.99841],
+								[31.992188,-55.478853],
+								[24.082031,-56.607885]
+								]]
 		    },
 		},
 
 		{
 		    "type": "Feature",
 		    "properties": {"nome": "Alojamento masculino",
-							"url": "#"},
+							"url": "alojamentos"},
 		    "geometry": {
 		        "type": "Polygon",
 		        "coordinates": [[
@@ -268,10 +267,10 @@
 		    "geometry": {
 		        "type": "Polygon",
 		        "coordinates": [[
-								[-82.617188,-68.366801],
-		        				[-78.574219,-68.974164],
-		        				[-79.541016,-69.748551],
-								[-83.759766,-69.037142]
+								[-83.056641,-67.875541],
+								[-76.552734,-68.592487],
+								[-78.574219,-70.436799],
+								[-85.166016,-69.349339]
 		        				]]
 		    },
 		},
@@ -306,7 +305,7 @@
 		{
 		    "type": "Feature",
 		    "properties": {"nome": "CTG",
-							"url": "#"},
+							"url": "ctg"},
 		    "geometry": {
 		        "type": "Polygon",
 		        "coordinates": [[
@@ -314,14 +313,14 @@
 		        				[-86.923828,-68.688521],
 		        				[-85.166016,-67.508568],
 								[-89.296875,-66.82652]
-		        				]]
+								]]
 		    },
 		},
 
 		{
 		    "type": "Feature",
 		    "properties": {"nome": "Centro de Cultura e Artes/ Memorial",
-							"url": "#"},
+							"url": "centroculturaartes"},
 		    "geometry": {
 		        "type": "Polygon",
 		        "coordinates": [[
@@ -357,7 +356,7 @@
 		{
 		    "type": "Feature",
 		    "properties": {"nome": "Equoterapia",
-							"url": "#"},
+							"url": "equoterapia"},
 		    "geometry": {
 		        "type": "Polygon",
 		        "coordinates": [[
@@ -392,7 +391,7 @@
 		{
 		    "type": "Feature",
 		    "properties": {"nome": "Marcenaria/Lavanderia",
-							"url": "#"},
+							"url": "marcenarialavanderia"},
 		    "geometry": {
 		        "type": "Polygon",
 		        "coordinates": [[
@@ -407,7 +406,7 @@
 		{
 		    "type": "Feature",
 		    "properties": {"nome": "Mecânica",
-							"url": "#"},
+							"url": "mecanica"},
 		    "geometry": {
 		        "type": "Polygon",
 		        "coordinates": [[
@@ -441,10 +440,10 @@
 		    "geometry": {
 		        "type": "Polygon",
 		        "coordinates": [[
-								[0.791016,-4.477856],
-		        				[3.427734,-4.477856],
-		        				[3.515625,-7.188101],
-								[0.791016,-7.188101]
+								[-1.40625,-2.108899],
+		        				[8.4375,-3.864255],
+		        				[7.822266,-17.476432],
+								[-2.724609,-16.214675]
 		        				]]
 		    },
 		},
@@ -456,10 +455,12 @@
 		    "geometry": {
 		        "type": "Polygon",
 		        "coordinates": [[
-								[-30.9375,-24.527135],
-		        				[-30.585938,-26.509905],
-		        				[-27.597656,-26.431228],
-								[-28.037109,-23.885838]
+								[-33.046875,-25.165173],
+								[-30.058594,-20.632784],
+		        				[-17.578125,-21.125498],
+		        				[-18.28125,-29.993002],
+								[-26.367188,-30.448674],
+								[-33.574219,-29.53523]
 		        				]]
 		    },
 		},
@@ -471,10 +472,10 @@
 		    "geometry": {
 		        "type": "Polygon",
 		        "coordinates": [[
-								[28.212891,-56.511018],
+								[24.785156,-56.992883],
 		        				[29.970703,-56.170023],
 		        				[31.201172,-59.933],
-								[29.267578,-59.977005]
+								[25.927734,-60.196156]
 		        				]]
 		    },
 		},
@@ -482,7 +483,7 @@
 		{
 		    "type": "Feature",
 		    "properties": {"nome": "Agroindústria",
-							"url": "#"},
+							"url": "agroindustria"},
 		    "geometry": {
 		        "type": "Polygon",
 		        "coordinates": [[
@@ -521,11 +522,11 @@
 		    "geometry": {
 		        "type": "Polygon",
 		        "coordinates": [[
-								[-134.648438,-36.244273],
-								[-133.066406,-38.341656],
-		        				[-137.460938,-40.780541],
-								[-139.306641,-38.68551]
-		        				]]
+								[-134.296875,-33.72434],
+								[-146.25,-38.134557],
+								[-138.164063,-46.316584],
+								[-128.320313,-42.293564]
+								]]
 		    },
 		},
 
@@ -536,11 +537,11 @@
 		    "geometry": {
 		        "type": "Polygon",
 		        "coordinates": [[
-								[-126.914063,-32.916485],
-		        				[-125.15625,-34.452218],
-		        				[-129.287109,-37.020098],
-								[-130.78125,-35.317366]
-		        				]]
+								[-133.857422,-33.504759],
+								[-124.189453,-29.764377],
+								[-123.310547,-35.317366],
+								[-129.023438,-38.959409]
+								]]
 		    },
 		},
 		
@@ -551,10 +552,12 @@
 		    "geometry": {
 		        "type": "Polygon",
 		        "coordinates": [[
-								[-60.732422,-42.293564],
-		        				[-58.798828,-43.261206],
-		        				[-57.480469,-41.640078],
-								[-59.326172,-40.780541]
+								[-63.457031,-42.032974],
+		        				[-50.097656,-27.994401],
+		        				[-43.59375,-38.548165],
+								[-40.78125,-49.15297],
+								[-53.085938,-49.837982],
+								[-61.699219,-45.706179]
 		        				]]
 		    },
 		},
@@ -578,14 +581,14 @@
 		{
 		    "type": "Feature",
 		    "properties": {"nome": "Alojamento feminino",
-							"url": "#"},
+							"url": "alojamentos"},
 		    "geometry": {
 		        "type": "Polygon",
 		        "coordinates": [[
-								[47.460938,-20.055931],
-		        				[50.361328,-20.468189],
-		        				[50.361328,-22.998852],
-								[47.021484,-22.43134]
+								[45.351563,-19.642588],
+		        				[52.03125,-19.642588],
+		        				[51.416016,-24.20689],
+								[45.087891,-23.079732]
 		        				]]
 		    },
 		},
@@ -593,14 +596,14 @@
 		{
 		    "type": "Feature",
 		    "properties": {"nome": "Alojamento feminino",
-							"url": "#"},
+							"url": "alojamentos"},
 		    "geometry": {
 		        "type": "Polygon",
 		        "coordinates": [[
-								[39.638672,-18.812718],
-		        				[39.726563,-21.371244],
-		        				[36.035156,-20.797201],
-								[36.5625,-18.812718]
+								[35.332031,-16.720385],
+		        				[40.869141,-17.14079],
+		        				[40.957031,-22.512557],
+								[35.068359,-21.698265]
 		        				]]
 		    },
 		},
@@ -608,7 +611,7 @@
 		{
 		    "type": "Feature",
 		    "properties": {"nome": "Alojamento feminino",
-							"url": "#"},
+							"url": "alojamentos"},
 		    "geometry": {
 		        "type": "Polygon",
 		        "coordinates": [[
@@ -623,14 +626,14 @@
 		{
 		    "type": "Feature",
 		    "properties": {"nome": "Alojamento masculino",
-							"url": ""},
+							"url": "alojamentos"},
 		    "geometry": {
 		        "type": "Polygon",
 		        "coordinates": [[
-		        				[19.6875,-14.093957],
-		        				[23.115234,-14.51978],
-								[22.5,-18.729502],
-								[18.632813,-18.145852]
+		        				[17.226563,-12.21118],
+		        				[25.048828,-12.640338],
+								[24.873047,-20.220966],
+								[17.402344,-18.729502]
 		        				]]
 		    },
 		},
@@ -639,8 +642,8 @@
 
 		var myStyle = {
 		    "color": "#000000",
-		    "weight": 6,
-		    "opacity": 0.7	
+		    "weight": 3,
+			"opacity": 0.7
 		};
 
 		function resetHighlight(e) {
@@ -650,10 +653,11 @@
 		    var layer = e.target;
 
 		    layer.setStyle({
-		        weight: 5,
-		        color: '8f6673',
-		        dashArray: '',
-		        fillOpacity: 0.7
+		        "weight": 1,
+		        "color": "#000000",
+		        "dashArray": '',
+				"fillOpacity": 0.7,
+				"fillColor": "#000000"
 		    });
 
 		    if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
