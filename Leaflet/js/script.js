@@ -106,7 +106,7 @@
 		{
 		    "type": "Feature",
 		    "properties": {"nome": "Ginásio de esportes",
-							"url": "#"},
+							"url": "academia"},
 		    "geometry": {
 		        "type": "Polygon",
 		        "coordinates": [[
@@ -181,7 +181,7 @@
 		{
 		    "type": "Feature",
 		    "properties": {"nome": "Prédio Biologia",
-							"url": "#"},
+							"url": "blocoa2"},
 		    "geometry": {
 		        "type": "Polygon",
 		        "coordinates": [[
@@ -196,7 +196,7 @@
 		{
 		    "type": "Feature",
 		    "properties": {"nome": "Prédio Tecnologia da Informação",
-							"url": "#"},
+							"url": "blocoa1"},
 		    "geometry": {
 		        "type": "Polygon",
 		        "coordinates": [[
@@ -263,7 +263,7 @@
 		{
 		    "type": "Feature",
 		    "properties": {"nome": "Centro de estudos em defesa sanitária vegetal",
-							"url": "#"},
+							"url": "labdefesavegetal"},
 		    "geometry": {
 		        "type": "Polygon",
 		        "coordinates": [[
@@ -341,7 +341,7 @@
 		{
 		    "type": "Feature",
 		    "properties": {"nome": "Ovinocultura",
-							"url": "#"},
+							"url": "ovinocultura"},
 		    "geometry": {
 		        "type": "Polygon",
 		        "coordinates": [[
@@ -373,7 +373,7 @@
 		{
 		    "type": "Feature",
 		    "properties": {"nome": "Bovinocultura",
-							"url": "#"},
+							"url": "bovinocultura"},
 		    "geometry": {
 		        "type": "Polygon",
 		        "coordinates": [[
@@ -436,7 +436,7 @@
 		{
 		    "type": "Feature",
 		    "properties": {"nome": "Culturas Anuais",
-							"url": "#"},
+							"url": "culturasanuais"},
 		    "geometry": {
 		        "type": "Polygon",
 		        "coordinates": [[
@@ -451,7 +451,7 @@
 		{
 		    "type": "Feature",
 		    "properties": {"nome": "Fruticultura/Silvicultura",
-							"url": "#"},
+							"url": "fruticulturasilvicultura"},
 		    "geometry": {
 		        "type": "Polygon",
 		        "coordinates": [[
@@ -468,7 +468,7 @@
 		{
 		    "type": "Feature",
 		    "properties": {"nome": "Setor de esporte e lazer/Miniauditório",
-							"url": "#"},
+							"url": "academia"},
 		    "geometry": {
 		        "type": "Polygon",
 		        "coordinates": [[
@@ -503,7 +503,7 @@
 		{
 		    "type": "Feature",
 		    "properties": {"nome": "Avicultura",
-							"url": "#"},
+							"url": "avicultura"},
 		    "geometry": {
 		        "type": "Polygon",
 		        "coordinates": [[
@@ -518,7 +518,7 @@
 		{
 		    "type": "Feature",
 		    "properties": {"nome": "Silo",
-							"url": "#"},
+							"url": "fabricaracoessilos"},
 		    "geometry": {
 		        "type": "Polygon",
 		        "coordinates": [[
@@ -533,7 +533,7 @@
 		{
 		    "type": "Feature",
 		    "properties": {"nome": "Fábrica de Rações",
-							"url": "#"},
+							"url": "fabricaracoessilos"},
 		    "geometry": {
 		        "type": "Polygon",
 		        "coordinates": [[
@@ -548,7 +548,7 @@
 		{
 		    "type": "Feature",
 		    "properties": {"nome": "Irrigação",
-							"url": "#"},
+							"url": "irrigacao"},
 		    "geometry": {
 		        "type": "Polygon",
 		        "coordinates": [[
@@ -565,7 +565,7 @@
 		{
 		    "type": "Feature",
 		    "properties": {"nome": "Suinocultura",
-							"url": "#"},
+							"url": "suinocultura"},
 		    "geometry": {
 		        "type": "Polygon",
 		        "coordinates": [[
