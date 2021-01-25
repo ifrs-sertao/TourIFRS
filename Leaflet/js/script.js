@@ -40,8 +40,6 @@
 		});
 		*/
 
-
-
         // features do GEOjson
         var estruturas = [{
 		    "type": "Feature",
@@ -56,21 +54,6 @@
 		        				[37.08,-69.28]
 		        				]]
 		    }
-		},
-		
-		{
-		    "type": "Feature",
-		    "properties": {"nome": "Pórtico",
-							"url": "#"},
-		    "geometry": {
-		        "type": "Polygon",
-		        "coordinates": [[
-								[35.595703,-71.718882],
-								[42.714844,-71.82884],
-								[42.802734,-73.099413],
-								[35.507813,-72.842021]
-								]]
-		    },
 		},
 		
 		{
@@ -136,7 +119,7 @@
 		{
 		    "type": "Feature",
 		    "properties": {"nome": "Quadras poliesportivas",
-							"url": "#"},
+							"url": "academia"},
 		    "geometry": {
 		        "type": "Polygon",
 		        "coordinates": [[
@@ -144,21 +127,6 @@
 		        				[34.189453,-66.443107],
 		        				[39.375,-66.231457],
 		        				[37.617188,-59.623325]
-		        				]]
-		    },
-		},
-
-		{
-		    "type": "Feature",
-		    "properties": {"nome": "Almoxarifado",
-							"url": "#"},
-		    "geometry": {
-		        "type": "Polygon",
-		        "coordinates": [[
-								[59.238281,-62.512318],
-		        				[59.853516,-65.58572],
-		        				[63.720703,-65.476508],
-		        				[63.105469,-62.308794]
 		        				]]
 		    },
 		},
