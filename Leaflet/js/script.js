@@ -73,7 +73,7 @@
 		
 		{
 		    "type": "Feature",
-		    "properties": {"nome": "Salas (Bloco A/ Bloco B)",
+		    "properties": {"nome": "Bloco A13/A14",
 							"url": "blocosalas"},
 		    "geometry": {
 		        "type": "Polygon",
