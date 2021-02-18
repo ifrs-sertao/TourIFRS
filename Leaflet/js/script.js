@@ -638,7 +638,7 @@
 		        mouseout: resetHighlight
 		    });
 		    if (feature.properties && feature.properties.nome) {
-		        layer.bindPopup("<a href=\"http://gabrielpatzer.github.io/TourIFRS?goto="+feature.properties.url+"\">"+feature.properties.nome+"</a>");
+		        layer.bindPopup("<a href=\"http://tour.sertao.ifrs.edu.br/?goto="+feature.properties.url+"\">"+feature.properties.nome+"</a>");
     }
 		}
 
