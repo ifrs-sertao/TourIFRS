@@ -119,14 +119,6 @@ tw-passage[tags~="Mapa"] {
   
 }/*caracteristicas das pg especifica*/
 
-iframe{
-    width: 100%;
-    height: 300px;
-    border-width: 2px;
-    border-style: inset;
-    border-color: initial;
-    border-image: initial;
-
 tw-include[title="Sidebar"] {
 	position: fixed;
 	top: 0;
@@ -139,6 +131,15 @@ tw-include[title="Sidebar"] {
 	color: #000000;
 	text-align: center;
     font-weight: bolder;
+    
+    background-color: lightgray;
+    border: 5px groove gray; 
+    border-radius: 25px; 
+    background: rgba(255,255,255,0.7); 
+}
+
+#a{
+    color:black;
 }
 
 </style><script role="script" id="twine-user-script" type="text/twine-javascript">
@@ -194,7 +195,7 @@ tw-include[title="Sidebar"] {
 	[[Projeto -&gt;projeto]]
 	[[Cursos-&gt;curso]]
 	[[Menu-&gt;menu]]
-    <a href="Leaflet/index.html" color="#000000">Navegação através do mapa</a>
+    <a href="Leaflet/index.html" id="a">Mapa</a>
 </tw-passagedata>    
 
 <tw-passagedata pid="2" name="projeto" tags="" position="319,117.5" size="100,100">	
