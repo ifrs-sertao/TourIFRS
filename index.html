@@ -1605,10 +1605,18 @@ tw-include[title="Sidebar"] {
     border: 5px groove gray; 
     border-radius: 25px; 
     background: rgba(255,255,255,0.7); 
+    padding-left: 1px;
+    padding-top: 1px;
+    padding-right: 1px;
 }
 
 #a{
     color:black;
+}
+
+#Box {
+	text-align: right;
+    color: #4169E1;
 }
 
 </style>
@@ -1648,8 +1656,8 @@ tw-include[title="Sidebar"] {
             [[Conhecer mais sobre o projeto -&gt;projeto]]
             [[Conhecer os cursos-&gt;curso]]
             [[Navegação através dos setores-&gt;menu]]
+            [[Navegação guiada-&gt;guia]]
             <a href="Leaflet/index.html" color="#4169E1">Navegação através do mapa</a>
-
         </tw-passagedata>
 
 
@@ -1665,6 +1673,9 @@ tw-include[title="Sidebar"] {
             [[Projeto -&gt;projeto]]
             [[Cursos-&gt;curso]]
             [[Menu-&gt;menu]]
+
+            [[Guia-&gt;guia]]
+
             <a href="Leaflet/index.html" id="a">Mapa</a>
         </tw-passagedata>
 
@@ -2617,6 +2628,222 @@ tw-include[title="Sidebar"] {
             [[Irrigação -&gt;irrigacao]]
 
             [[Voltar ao Início -&gt;inicio]]
+        </tw-passagedata>
+
+
+        <!--Código duplicada para a criação da navegação guiada-->
+
+        <tw-passagedata pid="30" name="guia" tags="" position="627,280.5" size="100,100">
+            <p><b>Pórtico</b>
+                Seja bem vindo(a) a navegação guiada! Siga por essa pequena apresentação do IFRS-Câmpus Sertão...</p>
+            <div class="content">
+                <picture>
+                    <source media="(max-width:480px)" srcset="public/images/portW400.jpg">
+                    <source media="(max-width:768px)" srcset="public/images/portW720.jpg">
+                    <source media="(max-width:769px)" srcset="public/images/portW1080.jpg">
+                    <img src="public/images/portW1080.jpg" alt="foto do pórtico do câmpus" />
+                </picture>
+
+            </div>
+
+
+            [[Voltar-&gt;inicio]]
+            [[<p id="Box">Seguir</p>-&gt;biblio]]
+
+        </tw-passagedata>
+
+        <tw-passagedata pid="27" name="biblio" tags="bib" position="238,412.5" size="100,100" id="bib">
+            <p><b>Administração e Biblioteca:</b></p>
+            <p>Esse bloco é dividido em dois "setores", está localizado ao lado do pórtico de entrada do câmpus.</p>
+            <p>No piso superior está a parte de administração, atuando no planejamento das políticas institucionais, com vistas a garantir a execução dos planos estratégicos e operacionais, supervisionar a aquisição e distribuição de material, controle patrimonial, planejamento físico e financeiro, assim como sobre a administração das operações de conservação e manutenção dos bens do IFRS - Câmpus Sertão. Nesse piso encontra-se um miniauditório, a Coordenação de Gestão de Pessoas, o Departamento de Pesquisa, Pós-Graduação e Inovação (DPPI), a Diretoria de Desenvolvimento Institucional (DDI) e a Direção Geral do Câmpus Sertão.</p>
+            <p>No piso térreo está a biblioteca do câmpus. Nela se encontram todos materias de apoio a ensino, pesquisa e extensão de todas áreas do conhecimento abrangidaspelo câmpus. A biblioteca também conta com pequenas salas de estudo no subsolo.</p>
+
+            <div class="content">
+                <picture>
+                    <source media="(max-width:480px)" srcset="public/images/admW400.jpg">
+                    <source media="(max-width:768px)" srcset="public/images/admW720.jpg">
+                    <source media="(max-width:769px)" srcset="public/images/admW1080.jpg">
+                    <img src="public/images/admW1080.jpg" alt="foto prédios da biblioteca e administração" />
+                </picture>
+
+            </div>
+
+            [[Voltar-&gt;guia]]
+            [[<p id="Box">Próximo</p>-&gt;ginasio]]
+        </tw-passagedata>
+
+        <tw-passagedata pid="28" name="ginasio" tags="" position="14,411.5" size="100,100">
+            <p><b>Ginásio, Academia e quadras poliesportivas:</b></p>
+            <p>Esse setor é voltado para os exercícios físicos e bem estar dos alunos. Conta com um ginásio poliesportivo, um mini auditório, academia com aparelhos diversificados e todo material necessário para a prática de jogos, brincadeiras e atividades físicas. O câmpus também possui diversas quadras ao ar livre para a prática esportiva de diversas modalidades.</p>
+            <p>No ano de 2019, o Câmpus Sertão foi sede da 6ª edição dos Jogos do IFRS, evento esportivo de três dias agregando praticantes de todos os campi da instituição.</p>
+
+            <div class="content">
+                <picture>
+                    <source media="(max-width:480px)" srcset="public/images/ginW400.jpg">
+                    <source media="(max-width:768px)" srcset="public/images/ginW720.jpg">
+                    <source media="(max-width:769px)" srcset="public/images/ginW1080.jpg">
+                    <img src="public/images/ginW1080.jpg" alt="foto Esporte e Lazer/Mini auditório/Academia/Ginásio" />
+                </picture>
+
+            </div>
+            
+            [[Voltar-&gt;biblio]]
+            [[<p id="Box">Próximo</p>-&gt;oleri]]
+        </tw-passagedata>
+
+        <tw-passagedata pid="8" name="oleri" tags="" position="1428,597.5" size="100,100">
+            <p><b>Olericultura:</b></p>
+            <p>Esse setor é destinado aos tratos culturais das olerículas (hortaliças e que abrangem as culturas folhosas, raízes, bulbos, tubérculos e alguns frutos como o melão e a melancia), conta com todos aparatos necessários para o aprendizado e trato cultural.</p>
+            <div class="content">
+                <picture>
+                    <source media="(max-width:480px)" srcset="public/images/olerW400.jpg">
+                    <source media="(max-width:768px)" srcset="public/images/olerW720.jpg">
+                    <source media="(max-width:769px)" srcset="public/images/olerW1080.jpg">
+                    <img src="public/images/olerW1080.jpg" alt="foto da olericultura" />
+                </picture>
+
+            </div>
+
+            [[Voltar-&gt;ginasio]]
+            [[<p id="Box">Próximo</p>-&gt;aloj]]
+        </tw-passagedata>
+
+        <tw-passagedata pid="24" name="aloj" tags="" position="464,414.5" size="100,100">
+            <p><b>Alojamentos:</b></p>
+            <p>Os alojamentos no campus, que são divididos em femininos e masculinos, são destinados a alunos que estudam em tempo integral dentro da instituição e não possuem tempo ou recurso para se deslocar todos os dias até o IFRS.</p>
+            <div class="content">
+                <picture>
+                    <source media="(max-width:480px)" srcset="public/images/alojW400.jpg">
+                    <source media="(max-width:768px)" srcset="public/images/alojW720.jpg">
+                    <source media="(max-width:769px)" srcset="public/images/alojW1080.jpg">
+                    <img src="public/images/alojW1080.jpg" alt="foto dos alojamentos" />
+                </picture>
+
+            </div>
+
+            [[Voltar-&gt;oleri]]
+            [[<p id="Box">Próximo</p>-&gt;equo]]
+        </tw-passagedata>
+
+        <tw-passagedata pid="9" name="equo" tags="" position="233,637.5" size="100,100">
+            <p><b>Centro de Equoterapia do Cavalo Crioulo:</b></p>
+            <p>O Centro de Equoterapia é um local destinado ao desenvolvimento de atividades de equoterapia no atendimento de pessoas com deficiências/limitações, com foco no <i>biopsicossocial</i>, nas áreas de saúde, educação e diversidade.</p>
+            <blockquote>A equoterapia é um método terapêutico e educacional que utiliza o cavalo dentro de uma abordagem interdisciplinar, unindo saúde, educação e equitação, buscando o desenvolvimento biopsicossocial de pessoas portadoras de deficiência e/ou de necessidades especiais. (<a href="http://equoterapia.org.br/articles/index/articles_list/138/81/0">Associação Nacional de Equoterapia</a>)</blockquote>
+            <p>Por meio de programas e projetos de extensão, são atendidas entidades conveniadas dos municípios de Sertão, Getúlio Vargas, Vila Lângaro e Coxilha.</p>
+            <p>Informações: equoterapia@sertao.ifrs.edu.br</p>
+
+            <div class="content">
+                <picture>
+                    <source media="(max-width:480px)" srcset="public/images/equoW400.jpg">
+                    <source media="(max-width:768px)" srcset="public/images/equoW720.jpg">
+                    <source media="(max-width:769px)" srcset="public/images/equoW1080.jpg">
+                    <img src="public/images/equoW1080.jpg" alt="foto da equoterapia" />
+                </picture>
+
+            </div>
+
+            [[Voltar-&gt;aloj]]
+            [[<p id="Box">Próximo</p>-&gt;refe]]
+        </tw-passagedata>
+
+        <tw-passagedata pid="6" name="refe" tags="" position="123,526.5" size="100,100">
+            <p><b>Refeitório:</b></p>
+            <p>É o local onde se disponibilizam café da manhã, almoço, janta e demais refeições aos alunos e servidores. As refeições são preparadas pelas cozinheiras do câmpus e planejadas por uma nutricionista. Boa parte dos alimentos consumidos são produzidos no próprio câmpus.</p>
+            <div class="content">
+                <picture>
+                    <source media="(max-width:480px)" srcset="public/images/refW400.jpg">
+                    <source media="(max-width:768px)" srcset="public/images/refW720.jpg">
+                    <source media="(max-width:769px)" srcset="public/images/refW1080.jpg">
+                    <img src="public/images/refW1080.jpg" alt="foto do refeitório" />
+                </picture>
+
+            </div>
+
+            [[Voltar-&gt;equo]]
+            [[<p id="Box">Próximo</p>-&gt;coop]]
+        </tw-passagedata>
+
+        <tw-passagedata pid="7" name="coop" tags="" position="234,530.5" size="100,100">
+            <p><b>COOPERA:</b></p>
+            <p>Esse bloco é destindo aos alunos que querem se descontrair, comprar um lanche e conversar. Também possui um espaço para os alunos e servidores realizarem a impresão de documentos, venda de material didático e recarga em aparelhos telefônicos.</p>
+
+            <div class="content">
+                <picture>
+                    <source media="(max-width:480px)" srcset="public/images/coopW400.jpg">
+                    <source media="(max-width:768px)" srcset="public/images/coopW720.jpg">
+                    <source media="(max-width:769px)" srcset="public/images/coopW1080.jpg">
+                    <img src="public/images/coopW1080.jpg" alt="foto da coopera" />
+                </picture>
+
+            </div>
+
+            [[Voltar-&gt;refe]]
+            [[<p id="Box">Próximo</p>-&gt;TI]]
+        </tw-passagedata>
+
+        <tw-passagedata pid="25" name="TI" tags="" position="707,559.5" size="100,100">
+            <p><b>Prédio da Tecnologia da Informação (Bloco A1):</b></p>
+            <p>Esse bloco é direcionado aos labóratórios de pesquisa e ensino na área de informática. Focado no curso superior de Tecnologia em Análise e Desenvolvimento de Sistemas e no curso Técnico em Manutenção e Suporte em Informática Integrado ao Ensino Médio. Todo o edifício é equipado com recursos para área, contando com vários laboratórios de informática para o aprendizado e experiência do desenvolvimento de softwares e hardwares.</p>
+            <p>Também encontramos, no subsolo do prédio, a sala da coordenação dos cursos da área e os técnicos em informática que são responsavéis pelo suporte e monitoramento de todos sistemas e recursos computacionais do campus.</p>
+
+            <div class="content">
+                <picture>
+                    <source media="(max-width:480px)" srcset="public/images/a1W400.jpg">
+                    <source media="(max-width:768px)" srcset="public/images/a1W720.jpg">
+                    <source media="(max-width:769px)" srcset="public/images/a1W1080.jpg">
+                    <img src="public/images/a1W1080.jpg" alt="foto do bloco A1" />
+                </picture>
+
+            </div>
+
+            [[Voltar-&gt;coop]]
+            [[<p id="Box">Próximo</p>-&gt;BIO]]
+        </tw-passagedata>
+
+        <tw-passagedata pid="26" name="BIO" tags="" position="1268,424.5" size="100,100">
+            <p><b>Prédio da Biologia (Bloco A2):</b></p>
+            <p>Esse bloco é direcionado as labóratórios de pesquisa e ensino na área das ciências básicas e manejo do solo. O espaço conta com váriados equipamentos que contribuem para o estudo na área.</p>
+            <p>Ele é dividido em Labóratório de Microscopia, Labóratório de Estereoscopia, Labóratório de Ciências Naturais, Labóratório de Histologia e Parasitologia, Labóratório de Manejo de Água e Solo, Labóratório de Processos de Separação e Salas de Professores.</p>
+            <div class="content">
+                <picture>
+                    <source media="(max-width:480px)" srcset="public/images/a2W400.jpg">
+                    <source media="(max-width:768px)" srcset="public/images/a2W720.jpg">
+                    <source media="(max-width:769px)" srcset="public/images/a2W1080.jpg">
+                    <img src="public/images/a2W1080.jpg" alt="foto do bloco A2" />
+                </picture>
+
+            </div>
+
+            [[Voltar-&gt;TI]]
+            [[<p id="Box">Próximo</p>-&gt;PredCen]]
+        </tw-passagedata>
+
+        <tw-passagedata pid="2" name="PredCen" tags="" position="14,525.5" size="100,100">
+
+            <p><b>Prédio central:</b></p>
+            <p>Esse bloco se localiza no centro do campus, construído em forma de "E".</p>
+            <p>Nele pode-se encontrar o Auditório José Leocir Dornelles Minussi, as coordenações dos cursos Técnicos em Agropecuária e Comércio, o Departamento de Assistência Estudantil (DAE), a Coordenadoria de Registros Acadêmicos (CRA, também conhecido como "secretaria"), o Departamento de Extensão (DEX), laboratórios de física e química, a Diretoria de Ensino, salas de professores, NIEPE de Ciências Exatas, além de salas de aula equipadas com quadro branco e datashow.</p>
+            <p>O prédio central também conta com diversos banheiros e um espaço de convivência, este gerenciado pela COOPERA.</p>
+            <div class="content">
+                <picture>
+                    <source media="(max-width:480px)" srcset="public/images/pcentralW400.jpg">
+                    <source media="(max-width:768px)" srcset="public/images/pcentralW720.jpg">
+                    <source media="(max-width:769px)" srcset="public/images/pcentralW1080.jpg">
+                    <img src="public/images/pcentralW1080.jpg" alt="foto prédio central" />
+                </picture>
+
+            </div>
+
+            [[Voltar-&gt;BIO]]
+            [[<p id="Box">Próximo</p>-&gt;fim]]
+        </tw-passagedata>
+
+        <tw-passagedata pid="2" name="fim" tags="" position="14,525.5" size="100,100">
+
+            <p>Esse é o fim da navegação guiada, caso deseje conhecer mais sobre o espaço e cursos ofertados pelo IFRS - Câmpus Sertão navegue pelo nosso site e descubra mais sobre a infraetrutura disponível, ou acesse  <a href="https://ifrs.edu.br/sertao/" color="#000000">https://ifrs.edu.br/sertao/</a> para mais informações. </p>
+                
+            [[Voltar-&gt;PredCen]]
+            [[<p id="Box">Ir para o início</p>-&gt;inicio]]
         </tw-passagedata>
 
         <script title="Twine engine code" data-main="harlowe">
