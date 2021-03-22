@@ -22,25 +22,6 @@
             popupAnchor: [0, 100]
 });
             
-                
-        
-        /*Marcador usado para pegar posição em Pixels
-        var ref = L.marker([0,0], {
-            draggable: true,
-        }).addTo(map);
-        ref.bindPopup('');
-                
-        ref.on ('dragend', function (e) {
-           // ref.getPopup().setContent('Clicked' + ref.getLatLng().toString()+'br/>'+ 'Pixels' + map.project(ref.getLatLng(), map.getMaxZoom().toString())) .openOn(map); 
-			latlng = ref.getLatLng().toString().split(',')
-	        lat = latlng[0]
-	        lng = latlng[1]
-	        rslt = lng.split(')')[0]+","+lat.split('(')[1];
-           ref.getPopup().setContent(rslt).openOn(map)
-		});
-		*/
-
-        // features do GEOjson
         var estruturas = [{
 		    "type": "Feature",
 		    "properties": {"nome": "Administrativo/Biblioteca",
