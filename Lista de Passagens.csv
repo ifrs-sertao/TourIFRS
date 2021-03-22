@@ -50,3 +50,16 @@ geral;lista de setores gerais
 tecnologia;Lista de setores da tecnologia
 cieagra;Lista de setores das Ciencias Agrícolas
 ciebio;Lista de setores das Ciencias Biológicas
+;
+NAVEGAÇÃO GUIADA(passagens duplicadas);
+guia;Início do guia, o pórtico
+biblio;Biblioteca do guia
+ginasio;Ginásio/esportes do guia
+aloj;Alojamento do guia
+equo;Equoterapia do guia
+refe;Refeitório do guia
+coop;Coopera do guia
+TI;Bloco TI do guia
+BIO;Bloco biologia do guia
+PredCen;Prédio central do guia
+fim;Fim do guia
